@@ -54,7 +54,7 @@ export const MyStack = () => {
   return (
     <>
       <div className="justify-center flex flex-wrap">
-        <h2 className="mt-8 mb-4 text-4xl font-bold tracking-tight sm:text-6xl underline">
+        <h2 className="mt-8 mb-4 text-4xl font-bold tracking-tight sm:text-6xl">
           Mi Stack
         </h2>
       </div>
