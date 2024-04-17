@@ -2,6 +2,7 @@ import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 import Image from "next/image";
 import CurriculumImage from "../../public/images/curriculum.png";
 import { ContainerScroll } from "./container-scroll-animation";
+import { DownloadCVButton } from "./download-cv-button";
 
 export const CV = () => {
   return (
@@ -34,6 +35,9 @@ export const CV = () => {
             draggable={false}
           />
         </ContainerScroll>
+        <div className="flex flex-row justify-center -mt-8">
+          <DownloadCVButton />
+        </div>
       </div>
     </>
   );
