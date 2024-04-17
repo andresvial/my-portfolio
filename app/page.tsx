@@ -5,12 +5,12 @@ import { Tagline } from "./components/tagline";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-black">
       <Tagline />
       <MyStack />
       <AboutMe />
       <CV />
-    </>
+    </div>
     // About mee!!!!!!!!!!!!!!!!!!!
     /////////////Curriculum Foto y descargar pdf
   );

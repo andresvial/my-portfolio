@@ -19,19 +19,16 @@ export const Tagline = () => {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
-        <Highlight className="text-black dark:text-white">Hola!</Highlight> Soy
-        Andrés Vial, Ingeniero de Software especializado en{" "}
-        <Highlight className="text-black dark:text-white">
-          Web Development
-        </Highlight>
-        . Soy{" "}
-        <Highlight className="text-black dark:text-white">apasionado</Highlight>{" "}
-        sobre mi trabajo y siempre estoy buscando nuevos{" "}
-        <Highlight className="text-black dark:text-white">desafíos</Highlight>
+        <Highlight className="text-white">Hola!</Highlight> Soy Andrés Vial,
+        Ingeniero de Software especializado en{" "}
+        <Highlight className="text-white">Web Development</Highlight>. Soy{" "}
+        <Highlight className="text-white">apasionado</Highlight> sobre mi
+        trabajo y siempre estoy buscando nuevos{" "}
+        <Highlight className="text-white">desafíos</Highlight>
         <div className="flex flex-col items-center">
-          <p className="w-fit mt-2 text-xs text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500">
+          <p className="w-fit mt-2 text-xs text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500">
             (Si, otra de esas frases genericas)
           </p>
         </div>

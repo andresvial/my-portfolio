@@ -57,7 +57,7 @@ export const MyStack = () => {
       <div className="justify-center flex flex-wrap">
         <TypewriterEffectSmooth
           className="mt-10 mb-5"
-          cursorClassName="bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500"
+          cursorClassName="bg-gradient-to-r from-indigo-500 to-purple-500"
           words={[
             {
               text: "Mi",
