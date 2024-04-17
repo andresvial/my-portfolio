@@ -11,7 +11,6 @@ export default function Home() {
       <AboutMe />
       <CV />
     </div>
-    // About mee!!!!!!!!!!!!!!!!!!!
-    /////////////Curriculum Foto y descargar pdf
+    ///Mi sproyectos!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   );
 }
