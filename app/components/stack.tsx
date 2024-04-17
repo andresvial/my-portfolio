@@ -10,6 +10,7 @@ import Prisma from "../../public/icons/prisma.png";
 import Typeorm from "../../public/icons/typeorm.png";
 import Python from "../../public/icons/python.png";
 import Rails from "../../public/icons/rails.png";
+import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 
 const projects = [
   {
@@ -54,9 +55,18 @@ export const MyStack = () => {
   return (
     <>
       <div className="justify-center flex flex-wrap">
-        <h2 className="mt-8 mb-4 text-4xl font-bold tracking-tight sm:text-6xl">
-          Mi Stack
-        </h2>
+        <TypewriterEffectSmooth
+          className="mt-8 mb-0"
+          cursorClassName="bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500"
+          words={[
+            {
+              text: "Mi",
+            },
+            {
+              text: "Stack",
+            },
+          ]}
+        />
       </div>
       <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={projects} />
