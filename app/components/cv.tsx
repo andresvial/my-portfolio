@@ -8,24 +8,21 @@ export const CV = () => {
   return (
     <>
       <div className="flex flex-col overflow-hidden">
-        <ContainerScroll
-          titleComponent={
-            <div className="justify-center flex flex-wrap">
-              <TypewriterEffectSmooth
-                className="mt-0 mb-2"
-                cursorClassName="bg-gradient-to-r from-indigo-500 to-purple-500"
-                words={[
-                  {
-                    text: "Mi",
-                  },
-                  {
-                    text: "Curriculum",
-                  },
-                ]}
-              />
-            </div>
-          }
-        >
+        <div className="justify-center flex flex-wrap mb-4 md:-mb-10">
+          <TypewriterEffectSmooth
+            className="mt-0 mb-2"
+            cursorClassName="bg-gradient-to-r from-indigo-500 to-purple-500"
+            words={[
+              {
+                text: "Mi",
+              },
+              {
+                text: "Curriculum",
+              },
+            ]}
+          />
+        </div>
+        <ContainerScroll titleComponent={""}>
           <Image
             src={CurriculumImage}
             alt="hero"

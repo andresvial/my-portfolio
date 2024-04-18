@@ -21,7 +21,10 @@ export const MyProjects = () => {
           cursorClassName="bg-gradient-to-r from-indigo-500 to-purple-500"
           words={[
             {
-              text: "Codeado",
+              text: "He",
+            },
+            {
+              text: "codeado",
             },
             {
               text: "en",
