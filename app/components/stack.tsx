@@ -1,16 +1,17 @@
 "use client";
 
-import { HoverEffect } from "../ui/card-hover-effect";
-import Node from "../../public/icons/node.svg";
-import Next from "../../public/icons/next.png";
-import React from "../../public/icons/react.png";
-import PostgreSQL from "../../public/icons/postgresql.png";
-import AWS from "../../public/icons/aws.png";
-import Prisma from "../../public/icons/prisma.png";
-import Typeorm from "../../public/icons/typeorm.png";
-import Python from "../../public/icons/python.png";
-import Rails from "../../public/icons/rails.png";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
+import { HoverEffect } from "../ui/card-hover-effect";
+
+import Node from "../../public/icons/stack/node.svg";
+import Next from "../../public/icons/stack/next.png";
+import React from "../../public/icons/stack/react.png";
+import PostgreSQL from "../../public/icons/stack/postgresql.png";
+import AWS from "../../public/icons/stack/aws.png";
+import Prisma from "../../public/icons/stack/prisma.png";
+import Typeorm from "../../public/icons/stack/typeorm.png";
+import Python from "../../public/icons/stack/python.png";
+import Rails from "../../public/icons/stack/rails.png";
 
 const projects = [
   {

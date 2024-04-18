@@ -11,6 +11,24 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  theme: {
+    animation: {
+      scroll:
+        "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+    },
+    keyframes: {
+      scroll: {
+        to: {
+          transform: "translate(calc(-50% - 0.5rem))",
+        },
+      },
+    },
+    extend: {
+      colors: {
+        soubid: "#F57146",
+      },
+    },
+  },
   plugins: [
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
