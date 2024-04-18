@@ -32,7 +32,7 @@ export const CV = () => {
             draggable={false}
           />
         </ContainerScroll>
-        <div className="flex flex-row justify-center -mt-8">
+        <div className="flex flex-row justify-center md:-mt-8">
           <DownloadCVButton />
         </div>
       </div>
