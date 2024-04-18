@@ -27,6 +27,11 @@ export const Tagline = () => {
         <Highlight className="text-white">apasionado</Highlight> sobre mi
         trabajo y siempre estoy buscando nuevos{" "}
         <Highlight className="text-white">desafíos</Highlight>
+        <div className="flex flex-col items-center mt-4">
+          <p className="w-fit mt-2 text-xs text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500">
+            (Y este es mi portafolio para no hacer menos aburrido leer un CV)
+          </p>
+        </div>
       </motion.h1>
     </HeroHighlight>
   );
