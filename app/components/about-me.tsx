@@ -27,8 +27,8 @@ export const AboutMe = () => {
           He trabajado siempre con equipos chicos, por lo que siempre me ha
           tocado hacer un poco de todo, ya sea el setup de nuevos proyectos,
           tareas en backend/frontend, diseño de arquitectura, modelación de base
-          de datos, levantamiento de proyectos como DevOps, diseño de UI/UX (lo
-          mejor que puedo jeje)
+          de datos, levantamiento de proyectos como DevOps y diseño de UI/UX
+          (esto último lo mejor que puedo jeje)
         </p>
       </div>
     </div>
