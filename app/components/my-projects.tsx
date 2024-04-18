@@ -14,7 +14,7 @@ import Soubid from "../../public/icons/projects/soubid.svg";
 
 export const MyProjects = () => {
   return (
-    <>
+    <div className="mb-32">
       <div className="justify-center flex flex-wrap">
         <TypewriterEffectSmooth
           className="mt-16 mb-5"
@@ -33,15 +33,15 @@ export const MyProjects = () => {
         <InfiniteMovingCards
           items={projects.slice(0, 3)}
           direction="right"
-          speed="normal"
+          speed="fast"
         />
         <InfiniteMovingCards
           items={projects.slice(3, 7)}
           direction="left"
-          speed="normal"
+          speed="fast"
         />
       </div>
-    </>
+    </div>
   );
 };
 

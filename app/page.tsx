@@ -13,6 +13,5 @@ export default function Home() {
       <CV />
       <MyProjects />
     </div>
-    ///Mi sproyectos!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   );
 }
