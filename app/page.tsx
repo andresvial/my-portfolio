@@ -1,3 +1,4 @@
+import { AboutMe } from "./components/about-me";
 import { CV } from "./components/cv";
 import { MyProjects } from "./components/my-projects";
 import { MyStack } from "./components/stack";
@@ -8,6 +9,7 @@ export default function Home() {
     <div className="bg-black">
       <Tagline />
       <MyStack />
+      <AboutMe />
       <CV />
       <MyProjects />
     </div>
