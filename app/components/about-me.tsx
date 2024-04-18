@@ -19,14 +19,14 @@ export const AboutMe = () => {
       </div>
       <div className="max-w-5xl mx-auto px-8">
         <p className="text-lg text-white font-medium text-justify">
-          Estudie Ingeniería en Civil en Ciencias de la Computación en la
+          Estudie Ingeniería Civil en Ciencias de la Computación en la
           Universidad de los Andes. Egrese en el 2022 y desde entonces he
-          trabajado desarrollando aplicaciones web como Ingeniero de Software.
+          trabajado desarrollando aplicaciones web como Ingeniero de Software, siempre basandose en los principios SOLID y Clean
         </p>
         <p className="mt-4 text-lg text-white font-medium text-justify">
-          He trabajado siempre con equipos chicos, por lo que siempre me ha
+          He trabajado siempre con equipos chicos, por lo que me ha
           tocado hacer un poco de todo, ya sea el setup de nuevos proyectos,
-          tareas en backend/frontend, diseño de arquitectura, modelación de base
+          tareas en backend/frontend,revisión de Pull Requests, diseño de arquitectura, modelación de base
           de datos, levantamiento de proyectos como DevOps y diseño de UI/UX
           (esto último lo mejor que puedo jeje)
         </p>
