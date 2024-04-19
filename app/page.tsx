@@ -3,6 +3,7 @@ import { CV } from "./components/cv";
 import { MyProjects } from "./components/my-projects";
 import { MyStack } from "./components/stack";
 import { Tagline } from "./components/tagline";
+import { Work } from "./components/work";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <MyStack />
       <AboutMe />
       <CV />
+      <Work />
       <MyProjects />
     </div>
   );
